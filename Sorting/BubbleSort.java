@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class BubbleSort {
 
-   static  int[] SelectionSort(int arr[]){
+   static  int[] bubbleSort(int arr[]){
     
         int n= arr.length;
 
@@ -37,7 +37,7 @@ public class BubbleSort {
             arr[i]=input.nextInt();
         }
 
-       System.out.println(Arrays.toString(SelectionSort(arr)));
+       System.out.println(Arrays.toString(bubbleSort(arr)));
         
     }
 
